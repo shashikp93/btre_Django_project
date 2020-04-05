@@ -40,8 +40,8 @@ def contact(request):
 
   send_mail('Property Listing Enquiry',
     'There has been an enquiry for ' + listing + '. Sign into the admin panel for more info.',
-    'sosicoder@gmail.com',
-    [realtor_email, 'cifad12943@ismailgul.net', '9shashipr@gmail.com']
+    '',
+    [realtor_email, 'cifad12943@ismailgul.net', '']
     )
 
   messages.success(request, "Your request has been submitted, a realtor will get back to you soon.")
